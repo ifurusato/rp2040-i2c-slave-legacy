@@ -65,7 +65,8 @@ class Response(Enum):
         for r in Response:
             if value == r.value:
                 return r
-        raise NotImplementedError
+        return Response.UNKNOWN_ERROR
+#       raise NotImplementedError
 
     # ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
     def __str__(self):
