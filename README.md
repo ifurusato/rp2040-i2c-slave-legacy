@@ -1,5 +1,9 @@
 # RP2040 I2C Slave
 
+__This repository is no longer maintained. 
+See [rp2040-i2c-slave](https://github.com/ifurusato/rp2040-i2c-slave) for 
+the latest version.__
+
 ![ItsyBitsy RP2040 on the MR01](./img/ItsyBitsyRP2040.jpg)
 
 This provides a simple implementation for using an RP2040-based MCU as an
